@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+.Cnfo{
+    text-align: center;
+}
+.Cnfo h1{
+    padding: 20px;
+    font-size: 40px;
+}
+.Cnfo input{
+    line-height: 1.6;
+}
+form .naem {
+    height: 40px;
+    width: 30%;
+    border-radius: 20px;
+    border: none;
+    background: #D4E4F7;
+    text-align: center;
+    font-size: 15px;
+}
+form textarea{
+    width: 30%;
+    height: 150px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    border: 2px solid #447ec5;
+    font-size: 15px;
+}
+form #check{
+    background:#5959ec;
+    color: white;
+}
+#check{
+    margin-left: -19%;
+}
+button{
+    width: 30%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background: #5959ec;
+    color: white;
+}
+.message{
+    width: 30%;
+    position: relative;
+    margin-bottom: 60px;
+    margin-left: 35%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.message .success{
+    font-size: 20px;
+    color: green;
+    position: absolute;
+    transition: .3s;
+    animation: button .3s linear;
+    display: none;
+}
+.message .danger{
+    font-size: 20px;
+    color: red;
+    position: absolute;
+    transition: .3s;
+    animation: button .3s linear;
+    display: none;
+}

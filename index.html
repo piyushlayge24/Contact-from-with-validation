@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contack form</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <form class="Cnfo">
+        <h1>Contact Us</h1>
+        <input type="name" class="naem" id="name" placeholder="Enter your name"> <br><br>
+        <input type="email" class="naem" id="Email" placeholder="Enter your Email"> <br><br>
+        <textarea placeholder="Enter your message" id="msg"></textarea> <br><br>
+        <input type="checkbox" id="check"> Subscibe to our LBE <br><br>
+        <button type="submit" onclick="message()">SUBMIT</button>
+    </form>
+    <div class="message">
+        <div class="success" id="success">Your message successfully sent!</div>
+        <div class="danger" id="danger">Fields can't be Empty</div>
+    </div>
+    <script src="form.js"></script>
+</body>
+</html>
